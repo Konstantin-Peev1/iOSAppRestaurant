@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+struct CartItem: Identifiable {
+    let id = UUID()
+    let dish: Dish
+    var quantity: Int
+}

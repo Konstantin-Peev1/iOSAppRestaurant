@@ -16,6 +16,23 @@
 		43636C9B2C8CB42800729B71 /* LittleLemonAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43636C9A2C8CB42800729B71 /* LittleLemonAppTests.swift */; };
 		43636CA52C8CB42800729B71 /* LittleLemonAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43636CA42C8CB42800729B71 /* LittleLemonAppUITests.swift */; };
 		43636CA72C8CB42800729B71 /* LittleLemonAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43636CA62C8CB42800729B71 /* LittleLemonAppUITestsLaunchTests.swift */; };
+		43636CB62C8D701400729B71 /* FoodDecoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43636CB52C8D701400729B71 /* FoodDecoding.swift */; };
+		43636CBC2C8D811700729B71 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43636CBB2C8D811700729B71 /* Onboarding.swift */; };
+		43636CBE2C8D836E00729B71 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43636CBD2C8D836E00729B71 /* Home.swift */; };
+		43636CC02C8D839100729B71 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43636CBF2C8D839100729B71 /* Menu.swift */; };
+		43636CC22C8D84B000729B71 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43636CC12C8D84B000729B71 /* UserProfile.swift */; };
+		43636CC42C8D867600729B71 /* dog-puppy-on-garden-royalty-free-image-1586966191.avif in Resources */ = {isa = PBXBuildFile; fileRef = 43636CC32C8D867600729B71 /* dog-puppy-on-garden-royalty-free-image-1586966191.avif */; };
+		43636CC62C8D87E700729B71 /* pngimg.com - dog_PNG50371.png in Resources */ = {isa = PBXBuildFile; fileRef = 43636CC52C8D87E700729B71 /* pngimg.com - dog_PNG50371.png */; };
+		43636CC92C8D8E9F00729B71 /* FetchedObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43636CC72C8D8E9F00729B71 /* FetchedObjects.swift */; };
+		43636CCD2C8D8F1100729B71 /* Dish+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43636CCB2C8D8F1100729B71 /* Dish+CoreDataClass.swift */; };
+		43636CCE2C8D8F1100729B71 /* Dish+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43636CCC2C8D8F1100729B71 /* Dish+CoreDataProperties.swift */; };
+		43636CD22C8D91E400729B71 /* MenuList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43636CD12C8D91E400729B71 /* MenuList.swift */; };
+		43636CD42C8D91F400729B71 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43636CD32C8D91F400729B71 /* MenuItem.swift */; };
+		43636CD62C8DD9AA00729B71 /* CartItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43636CD52C8DD9AA00729B71 /* CartItem.swift */; };
+		43636CD82C8DD9C300729B71 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43636CD72C8DD9C300729B71 /* CartView.swift */; };
+		43636CDA2C8DE64B00729B71 /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43636CD92C8DE64B00729B71 /* CartManager.swift */; };
+		43636CDC2C8E310B00729B71 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43636CDB2C8E310B00729B71 /* Color.swift */; };
+		43636CDE2C8E326800729B71 /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43636CDD2C8E326800729B71 /* FilterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +65,23 @@
 		43636CA02C8CB42800729B71 /* LittleLemonAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LittleLemonAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43636CA42C8CB42800729B71 /* LittleLemonAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleLemonAppUITests.swift; sourceTree = "<group>"; };
 		43636CA62C8CB42800729B71 /* LittleLemonAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleLemonAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		43636CB52C8D701400729B71 /* FoodDecoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDecoding.swift; sourceTree = "<group>"; };
+		43636CBB2C8D811700729B71 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		43636CBD2C8D836E00729B71 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		43636CBF2C8D839100729B71 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		43636CC12C8D84B000729B71 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		43636CC32C8D867600729B71 /* dog-puppy-on-garden-royalty-free-image-1586966191.avif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "dog-puppy-on-garden-royalty-free-image-1586966191.avif"; sourceTree = SOURCE_ROOT; };
+		43636CC52C8D87E700729B71 /* pngimg.com - dog_PNG50371.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pngimg.com - dog_PNG50371.png"; path = "../../../pngimg.com - dog_PNG50371.png"; sourceTree = "<group>"; };
+		43636CC72C8D8E9F00729B71 /* FetchedObjects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FetchedObjects.swift; path = ../../../../Downloads/KrOCQU2CTpmu1REIfryAvg_ae0cd909bf5e4e7db7525f835ddd50e1_CoreDataSupport/FetchedObjects.swift; sourceTree = "<group>"; };
+		43636CCB2C8D8F1100729B71 /* Dish+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dish+CoreDataClass.swift"; sourceTree = "<group>"; };
+		43636CCC2C8D8F1100729B71 /* Dish+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dish+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		43636CD12C8D91E400729B71 /* MenuList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuList.swift; sourceTree = "<group>"; };
+		43636CD32C8D91F400729B71 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		43636CD52C8DD9AA00729B71 /* CartItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItem.swift; sourceTree = "<group>"; };
+		43636CD72C8DD9C300729B71 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		43636CD92C8DE64B00729B71 /* CartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartManager.swift; sourceTree = "<group>"; };
+		43636CDB2C8E310B00729B71 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		43636CDD2C8E326800729B71 /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +112,8 @@
 		43636C782C8CB42700729B71 = {
 			isa = PBXGroup;
 			children = (
+				43636CCB2C8D8F1100729B71 /* Dish+CoreDataClass.swift */,
+				43636CCC2C8D8F1100729B71 /* Dish+CoreDataProperties.swift */,
 				43636C832C8CB42700729B71 /* LittleLemonApp */,
 				43636C992C8CB42800729B71 /* LittleLemonAppTests */,
 				43636CA32C8CB42800729B71 /* LittleLemonAppUITests */,
@@ -98,12 +134,27 @@
 		43636C832C8CB42700729B71 /* LittleLemonApp */ = {
 			isa = PBXGroup;
 			children = (
+				43636CC72C8D8E9F00729B71 /* FetchedObjects.swift */,
 				43636C842C8CB42700729B71 /* LittleLemonAppApp.swift */,
+				43636CBD2C8D836E00729B71 /* Home.swift */,
+				43636CC12C8D84B000729B71 /* UserProfile.swift */,
+				43636CBF2C8D839100729B71 /* Menu.swift */,
+				43636CDD2C8E326800729B71 /* FilterView.swift */,
 				43636C862C8CB42700729B71 /* ContentView.swift */,
+				43636CBB2C8D811700729B71 /* Onboarding.swift */,
+				43636CC32C8D867600729B71 /* dog-puppy-on-garden-royalty-free-image-1586966191.avif */,
+				43636CC52C8D87E700729B71 /* pngimg.com - dog_PNG50371.png */,
 				43636C882C8CB42800729B71 /* Assets.xcassets */,
+				43636CD12C8D91E400729B71 /* MenuList.swift */,
+				43636CD32C8D91F400729B71 /* MenuItem.swift */,
 				43636C8D2C8CB42800729B71 /* Persistence.swift */,
 				43636C8F2C8CB42800729B71 /* LittleLemonApp.xcdatamodeld */,
 				43636C8A2C8CB42800729B71 /* Preview Content */,
+				43636CB52C8D701400729B71 /* FoodDecoding.swift */,
+				43636CD52C8DD9AA00729B71 /* CartItem.swift */,
+				43636CD72C8DD9C300729B71 /* CartView.swift */,
+				43636CDB2C8E310B00729B71 /* Color.swift */,
+				43636CD92C8DE64B00729B71 /* CartManager.swift */,
 			);
 			path = LittleLemonApp;
 			sourceTree = "<group>";
@@ -238,6 +289,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				43636C8C2C8CB42800729B71 /* Preview Assets.xcassets in Resources */,
+				43636CC42C8D867600729B71 /* dog-puppy-on-garden-royalty-free-image-1586966191.avif in Resources */,
+				43636CC62C8D87E700729B71 /* pngimg.com - dog_PNG50371.png in Resources */,
 				43636C892C8CB42800729B71 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,10 +316,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43636CDA2C8DE64B00729B71 /* CartManager.swift in Sources */,
+				43636CBC2C8D811700729B71 /* Onboarding.swift in Sources */,
 				43636C8E2C8CB42800729B71 /* Persistence.swift in Sources */,
+				43636CCD2C8D8F1100729B71 /* Dish+CoreDataClass.swift in Sources */,
+				43636CCE2C8D8F1100729B71 /* Dish+CoreDataProperties.swift in Sources */,
+				43636CBE2C8D836E00729B71 /* Home.swift in Sources */,
+				43636CC92C8D8E9F00729B71 /* FetchedObjects.swift in Sources */,
+				43636CD22C8D91E400729B71 /* MenuList.swift in Sources */,
 				43636C912C8CB42800729B71 /* LittleLemonApp.xcdatamodeld in Sources */,
+				43636CC02C8D839100729B71 /* Menu.swift in Sources */,
+				43636CD42C8D91F400729B71 /* MenuItem.swift in Sources */,
+				43636CB62C8D701400729B71 /* FoodDecoding.swift in Sources */,
+				43636CC22C8D84B000729B71 /* UserProfile.swift in Sources */,
 				43636C872C8CB42700729B71 /* ContentView.swift in Sources */,
+				43636CD62C8DD9AA00729B71 /* CartItem.swift in Sources */,
+				43636CD82C8DD9C300729B71 /* CartView.swift in Sources */,
+				43636CDE2C8E326800729B71 /* FilterView.swift in Sources */,
 				43636C852C8CB42700729B71 /* LittleLemonAppApp.swift in Sources */,
+				43636CDC2C8E310B00729B71 /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

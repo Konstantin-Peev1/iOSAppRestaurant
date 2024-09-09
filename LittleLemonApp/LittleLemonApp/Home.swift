@@ -8,8 +8,29 @@
 import SwiftUI
 
 struct Home: View {
+    @StateObject private var cartManager = CartManager()
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        TabView {
+            // Menu Tab
+            Menu()
+                .environmentObject(cartManager)
+                .tabItem {
+                    Label("Menu", systemImage: "list.dash")
+                }
+
+            // Profile Tab
+            UserProfile()
+                .tabItem {
+                    Label("Profile", systemImage: "square.and.pencil")
+                }
+            CartView()
+                .environmentObject(cartManager)
+                           .tabItem {
+                               Label("Cart", systemImage: "cart")
+                           }
+        }
+        .navigationBarBackButtonHidden(true) // Disable back button
     }
 }
 
